@@ -16,7 +16,7 @@
             "MIMode": "gdb",
             "miDebuggerPath": "C:/msys64/ucrt64/bin/gdb.exe",
             "preLaunchTask": "Build C++23 with GCC 16.2.0"
-        }
+        },
         {
             //Python
             "name": "Python: Current File",
@@ -25,7 +25,7 @@
             "program": "${file}",
             "console": "integratedTerminal",
             "justMyCode": true
-        }
+        },
         {
             //Java
             "type": "java",
