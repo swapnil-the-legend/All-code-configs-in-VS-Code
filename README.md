@@ -1,1 +1,1 @@
-# Create ".vscode" folder, then use jspn files.
+# Create ".vscode" folder, then use json files.
