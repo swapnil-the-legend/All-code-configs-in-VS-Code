@@ -47,7 +47,7 @@
                 "kind": "build",
                 "isDefault": true
             },
-            "problemMatcher": []
+            "problemMatcher": "$python"
         },
         {
             //Java
@@ -63,7 +63,7 @@
                 "kind": "build",
                 "isDefault": true
             },
-            "problemMatcher": "$javac"
+            "problemMatcher": []
         }
     ]
 }
