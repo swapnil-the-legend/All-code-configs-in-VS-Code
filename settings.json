@@ -1,6 +1,5 @@
 {
-    //C/C++
-    // Editor settings
+    //Editor settings
     "editor.fontSize": 14,
     "editor.fontFamily": "Consolas",
     "editor.fontLigatures": false,
@@ -9,47 +8,35 @@
     "editor.detectIndentation": false,
     "editor.formatOnSave": true,
     "editor.minimap.enabled": true,
-
-    // File settings
+    //File settings
     "files.autoSave": "afterDelay",
     "files.autoSaveDelay": 1000,
     "files.encoding": "utf8",
     "files.insertFinalNewline": true,
     "files.trimTrailingWhitespace": true,
-
-    // C/C++ settings
+    //Code Runner settings
+    "code-runner.runInTerminal": true,
+    "code-runner.saveFileBeforeRun": true,
+    "code-runner.clearPreviousOutput": true,
+    "code-runner.executorMap":
+    {
+        "cpp": "cd $dir && g++ -std=c++23 -O2 -Wall -Wextra $fileName -o $fileNameWithoutExt.exe && ./$fileNameWithoutExt.exe"
+    },
+    //Terminal settings
+    "terminal.integrated.defaultProfile.windows": "PowerShell",
+    //Git settings
+    "git.autofetch": true,
+    //C/C++
     "C_Cpp.default.cppStandard": "c++23",
     "C_Cpp.default.cStandard": "c17",
     "C_Cpp.default.intelliSenseMode": "windows-gcc-x64",
     "C_Cpp.errorSquiggles": "enabled",
     "C_Cpp.autocomplete": "default",
     "C_Cpp.formatting": "default",
-
-    // Code Runner settings
-    "code-runner.runInTerminal": true,
-    "code-runner.saveFileBeforeRun": true,
-    "code-runner.clearPreviousOutput": true,
-    "code-runner.executorMap": 
-    {
-        "cpp": "cd $dir && g++ -std=c++23 -O2 -Wall -Wextra $fileName -o $fileNameWithoutExt.exe && ./$fileNameWithoutExt.exe"
-    },
-
-    // Terminal settings
-    "terminal.integrated.defaultProfile.windows": "PowerShell",
-
-    // Git settings
-    "git.autofetch": true,
-    
     //Python
     "python.defaultInterpreterPath": "python",
     "python.terminal.activateEnvironment": true,
     "python.analysis.typeCheckingMode": "basic",
-    "editor.formatOnSave": true,
-    "editor.tabSize": 4,
-    "editor.insertSpaces": true,
-    "files.autoSave": "afterDelay",
-    "files.autoSaveDelay": 1000
-    
     //Java
     "java.configuration.updateBuildConfiguration": "automatic",
     "java.compile.nullAnalysis.mode": "automatic",
