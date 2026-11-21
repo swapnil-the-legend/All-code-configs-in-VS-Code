@@ -32,7 +32,7 @@
                 "isDefault": true
             },
             "detail": "GCC 16.2.0 C++23 build"
-        }
+        },
         {
             //Python
             "label": "Python: Run Current File",
@@ -48,7 +48,7 @@
                 "isDefault": true
             },
             "problemMatcher": []
-        }
+        },
         {
             //Java
             "label": "Compile Java",
