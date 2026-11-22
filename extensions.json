@@ -4,20 +4,35 @@
         //C/C++
         "ms-vscode.cpptools",
         "ms-vscode.cpptools-extension-pack",
-        "formulahendry.code-runner",
         "ms-vscode.cmake-tools",
-        "usernamehw.errorlens",
-        "eamodio.gitlens",
-        "PKief.material-icon-theme",
         //Python
         "ms-python.python",
         "ms-python.vscode-pylance",
         "ms-python.debugpy",
-        "ms-toolsai.jupyter",
-        "charliermarsh.ruff",
         //Java
-        "redhat.java",
         "vscjava.vscode-java-debug",
         "vscjava.vscode-java-pack"
     ]
 }
+
+/*
+        Optional if needed:
+        "formulahendry.code-runner"
+        "divyanshuagrawal.competitive-programming-helper"
+        "usernamehw.errorlens"
+        "eamodio.gitlens"
+        "PKief.material-icon-theme"
+        "halistahasahin.debug-inspector"
+        "ms-azuretools.vscode-containers"
+
+        //Python
+        "ms-toolsai.jupyter"
+        "charliermarsh.ruff"
+        
+        //Java
+        "redhat.java"
+
+        //Web Technologies
+        "techer.open-in-browser"
+
+*/
