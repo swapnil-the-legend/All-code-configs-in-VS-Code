@@ -1,1 +1,1 @@
-# Create ".vscode" folder, then use json files.
+# Create ".vscode" folder, then copy and paste json files.
